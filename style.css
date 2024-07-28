@@ -1,0 +1,261 @@
+* {
+
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header with a background color and some padding */
+.head {
+  overflow: hidden;
+  background-color: #1F2937;
+  padding: 5px 10% 5px 10%;
+}
+
+/* Style the header links */
+.LogoHeader {
+  float: left;
+  color: #F9FAF8;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: bold;
+
+}
+
+
+.HeaderLink {
+
+  float: right;
+  color: #E5E7EB;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.TheBody {
+  display: flex;
+  overflow: hidden;
+  height: auto;
+  width: auto;
+  background-color: #1F2937;
+  padding: 50px 10% 50px 10%;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+
+}
+
+.BodyOne {
+  height: 200px;
+  width: 37%;
+  background-color: #1F2937;
+}
+
+.BodyTwo {
+  display: flex;
+  height: 200px;
+  width: 49%;
+  background-color: #6d747d;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.BodyTwo p {
+  color: #F9FAF8;
+}
+
+.BodyOne h1 {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #F9FAF8;
+}
+
+.BodyOne p {
+  font-size: 18px;
+  color: #E5E7EB;
+  margin-bottom: 15px;
+}
+
+.BodyOne a {
+  font-size: 24px;
+  color: #F9FAF8;
+  padding: 5px 15px 5px 15px;
+  text-decoration: none;
+  border-radius: 5px;
+  background-color: #3882F6;
+}
+
+
+.RandomInfo {
+
+  display: flex;
+  overflow: hidden;
+  flex-direction: column;
+  height: auto;
+  width: auto;
+  background-color: #F9FAF8;
+  padding: 50px 10% 50px 10%;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.ParentForBox {
+
+  display: flex;
+  margin-top: 60px;
+  gap: 50px;
+}
+
+.BlueBox {
+  height: 85px;
+  width: 85px;
+  background-color: #F9FAF8;
+  border-color: #3882F6;
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 10px;
+}
+
+.NewBox {
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+  gap: 10px;
+}
+
+
+
+/* Inspiration quote section starts here */
+.InspirationBox {
+  display: flex;
+  height: auto;
+  width: auto;
+  background-color: #E5E7EB;
+  padding: 50px 10% 50px 10%;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+.HoldTheQuote {
+
+  display: flex;
+  flex-direction: column;
+  margin-top: 60px;
+  margin-bottom: 30px;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.TheQuote {
+
+  font-size: 36px;
+  font-style: italic;
+  color: #1F2937;
+  font-weight: lighter;
+}
+
+.NameThor {
+
+  text-align: right;
+  font-size: 16px;
+  font-style: italic;
+  color: #1F2937;
+  font-weight: bold;
+
+
+}
+
+/* Call Action Starts */
+
+.CallActionContainer {
+
+  display: flex;
+  height: auto;
+  width: auto;
+  background-color: #F9FAF8;
+  padding: 50px 10% 50px 10%;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+.CallToActionBox{
+
+  display: flex;
+
+  height: 100px;
+  width: 70%;
+
+  margin-top: 60px;
+  margin-bottom: 30px;
+  margin-left: 15%;
+  margin-right: 15%;
+  background-color: #3882F6;
+
+  border-radius: 10px;
+
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+
+
+.CallParagraph{
+width: 70%;
+
+}
+
+.Action{
+
+  font-size: 18px;
+  color: #E5E7EB;
+
+}
+
+.CallSubtext{
+
+  font-size: 13px;
+  color: #E5E7EB;
+
+}
+
+
+.CallSignupButton a{
+
+  font-size: 19px;
+  color: #F9FAF8;
+  padding: 5px 25px;
+  text-decoration: none;
+  border-radius: 5px;
+  border: 2px solid #F9FAF8;
+  background-color: #3882F6;
+
+
+}
+
+
+.CopyrightContainer{
+  display: flex;
+  height: auto;
+  width: auto;
+  background-color: #1F2937;
+  padding: 30px 5% 30px 5%;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.CopyrightContainer p{
+  font-size: 13px;
+  color: #E5E7EB;
+}
+
+
